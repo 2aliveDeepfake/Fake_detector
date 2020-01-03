@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>nhzjxfptjw 06_0.jpg</filename>
+	<path>C:\tensorflow1\models\research\object_detection\images\nhzjxfptjw 06_0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>268</width>
+		<height>312</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fl_f</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>192</xmin>
+			<ymin>123</ymin>
+			<xmax>221</xmax>
+			<ymax>220</ymax>
+		</bndbox>
+	</object>
+</annotation>

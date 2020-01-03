@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>facebook_43769.jpg</filename>
+	<path>C:\tensorflow1\models\research\object_detection\images\facebook_43769.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>537</width>
+		<height>711</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>eb_f</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>134</xmin>
+			<ymin>239</ymin>
+			<xmax>424</xmax>
+			<ymax>357</ymax>
+		</bndbox>
+	</object>
+</annotation>
