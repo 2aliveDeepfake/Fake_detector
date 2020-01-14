@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>F_cwnagpgres 06_0.jpg</filename>
+	<path>C:\Users\Herry\PycharmProjects\opencv\train\F_cwnagpgres 06_0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>171</width>
+		<height>234</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>nose_M_C</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>75</xmin>
+			<ymin>104</ymin>
+			<xmax>109</xmax>
+			<ymax>143</ymax>
+		</bndbox>
+	</object>
+</annotation>

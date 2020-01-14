@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>F_lsbrrbmiwx 03_0.jpg</filename>
+	<path>C:\Users\Herry\PycharmProjects\opencv\train\F_lsbrrbmiwx 03_0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>247</width>
+		<height>323</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>nose_M_C</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>106</xmin>
+			<ymin>136</ymin>
+			<xmax>152</xmax>
+			<ymax>187</ymax>
+		</bndbox>
+	</object>
+</annotation>

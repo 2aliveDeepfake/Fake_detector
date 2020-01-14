@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>F_thytheoonq 05_0.jpg</filename>
+	<path>C:\Users\Herry\PycharmProjects\opencv\train\F_thytheoonq 05_0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>190</width>
+		<height>248</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>nose_M_C</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>75</xmin>
+			<ymin>89</ymin>
+			<xmax>116</xmax>
+			<ymax>142</ymax>
+		</bndbox>
+	</object>
+</annotation>

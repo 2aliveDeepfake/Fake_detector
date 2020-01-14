@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>F_arwyjgnvlp 11_0.jpg</filename>
+	<path>C:\Users\Herry\PycharmProjects\opencv\train\F_arwyjgnvlp 11_0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>357</width>
+		<height>479</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>nose_M_C</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>137</xmin>
+			<ymin>208</ymin>
+			<xmax>205</xmax>
+			<ymax>293</ymax>
+		</bndbox>
+	</object>
+</annotation>

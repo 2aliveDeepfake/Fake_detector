@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>F_dvhjpqxivo 06_0.jpg</filename>
+	<path>C:\Users\Herry\PycharmProjects\opencv\train\F_dvhjpqxivo 06_0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>181</width>
+		<height>244</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>nose_M_C</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>81</xmin>
+			<ymin>104</ymin>
+			<xmax>116</xmax>
+			<ymax>144</ymax>
+		</bndbox>
+	</object>
+</annotation>

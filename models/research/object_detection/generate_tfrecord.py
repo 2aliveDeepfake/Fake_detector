@@ -29,12 +29,12 @@ FLAGS = flags.FLAGS
 
 # TO-DO replace this with label map
 def class_text_to_int(row_label):
-    if row_label == 'n_f':
+    if row_label == 'nose_M_C':
         return 1
-    elif row_label == 'eb_f':
-        return 2
-    elif row_label == 'fl_f':
-        return 3
+    # elif row_label == 'tone_s':
+    #     return 2
+    # elif row_label == 'fl_f':
+    #     return 3
     # elif row_label == 'queen':
     #     return 4
     # elif row_label == 'king':
@@ -52,7 +52,7 @@ def split(df, group):
 
 
 def create_tf_example(group, path):
-    with tf.gfile.GFile(os.path.join(path, '{}'.format(group.filename)), 'rb') as fid:
+    with tf.io.gfile.GFile(os.path.join(path, '{}'.format(group.filename)), 'rb') as fid:
         encoded_jpg = fid.read()
     encoded_jpg_io = io.BytesIO(encoded_jpg)
     image = Image.open(encoded_jpg_io)
@@ -93,7 +93,7 @@ def create_tf_example(group, path):
 
 
 def main(_):
-    writer = tf.python_io.TFRecordWriter(FLAGS.output_path)
+    writer = tf.io.TFRecordWriter(FLAGS.output_path)
     path = os.path.join(os.getcwd(), FLAGS.image_dir)
     examples = pd.read_csv(FLAGS.csv_input)
     grouped = split(examples, 'filename')
@@ -107,4 +107,4 @@ def main(_):
 
 
 if __name__ == '__main__':
-    tf.app.run()
+    tf.compat.v1.app.run()

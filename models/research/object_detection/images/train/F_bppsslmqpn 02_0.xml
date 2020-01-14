@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>F_bppsslmqpn 02_0.jpg</filename>
+	<path>C:\Users\Herry\PycharmProjects\opencv\train\F_bppsslmqpn 02_0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>329</width>
+		<height>448</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>nose_M_C</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>152</xmin>
+			<ymin>193</ymin>
+			<xmax>220</xmax>
+			<ymax>274</ymax>
+		</bndbox>
+	</object>
+</annotation>
