@@ -19,8 +19,8 @@ https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Trai
 4. C:\tensorflow1\models\research\object_detection 폴더에 3번 파일 전체 복사하고 붙여넣기  
 ![Alt text](/readme/img1.jpg)
   
-  ============================================================================================
-  수정만 하는 경우
+  =======================================================================  
+  수정만 하는 경우에는 여기서부터
   
 새로 detector를 학습시키려면, 폴더 내 파일들 삭제 (폴더는 남겨두고):  
 	• \object_detection\images\train and \object_detection\images\test 내의 모든 파일  
