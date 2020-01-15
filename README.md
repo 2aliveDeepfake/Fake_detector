@@ -17,9 +17,9 @@ https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Trai
 3. TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10 => github zip 파일 다운로드, 압축 해제
   
 4. C:\tensorflow1\models\research\object_detection 폴더에 3번 파일 전체 복사하고 붙여넣기  
-![Alt text](/readme/img1.jpg)
+![Alt text](/readme/img1.jpeg)
   
-  =======================================================================  
+  ========================================================================  
   ## 수정만 하는 경우에는 여기서부터
   
 새로 detector를 학습시키려면, 폴더 내 파일들 삭제 (폴더는 남겨두고):  
